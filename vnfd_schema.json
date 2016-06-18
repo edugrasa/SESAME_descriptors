@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": " http://www.sesame-h2020-5g-ppp.eu/",
+  "id": "http://www.sesame-h2020-5g-ppp.eu/",
   "type": "object",
   "properties": {
     "provider_id": {
