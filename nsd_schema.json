@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://www.sesame-h2020-5g-ppp.eu/",
+  "id": "",
   "type": "object",
   "properties": {
     "nsd": {
@@ -236,7 +236,8 @@
             "virtual_links": {
               "id": "/nsd/vld/virtual_links",
               "type": "array",
-              "items": {
+              "items":
+              {
                 "id": "/nsd/vld/virtual_links/0",
                 "type": "object",
                 "properties": {
@@ -281,149 +282,49 @@
             }
           }
         },
-        "sla": {
-          "id": "/nsd/sla",
+        "service_deployment_flavours": {
+          "id": "/nsd/service_deployment_flavours",
           "type": "array",
           "items": {
-            "id": "/nsd/sla/0",
+            "id": "/nsd/service_deployment_flavours/0",
             "type": "object",
             "properties": {
               "id": {
-                "id": "/nsd/sla/0/id",
+                "id": "/nsd/service_deployment_flavours/0/id",
                 "type": "string"
               },
               "flavor_key": {
-                "id": "/nsd/sla/0/flavor_key",
+                "id": "/nsd/service_deployment_flavours/0/flavor_key",
                 "type": "string"
               },
-              "assurance_parameters": {
-                "id": "/nsd/sla/0/assurance_parameters",
-                "type": "array",
-                "items": {
-                  "id": "/nsd/sla/0/assurance_parameters/0",
-                  "type": "object",
-                  "properties": {
-                    "formula": {
-                      "id": "/nsd/sla/0/assurance_parameters/0/formula",
-                      "type": "string"
-                    },
-                    "id": {
-                      "id": "/nsd/sla/0/assurance_parameters/0/id",
-                      "type": "string"
-                    },
-                    "name": {
-                      "id": "/nsd/sla/0/assurance_parameters/0/name",
-                      "type": "string"
-                    },
-                    "penalty": {
-                      "id": "/nsd/sla/0/assurance_parameters/0/penalty",
-                      "type": "object",
-                      "properties": {
-                        "type": {
-                          "id": "/nsd/sla/0/assurance_parameters/0/penalty/type",
-                          "type": "string"
-                        },
-                        "unit": {
-                          "id": "/nsd/sla/0/assurance_parameters/0/penalty/unit",
-                          "type": "string"
-                        },
-                        "validity": {
-                          "id": "/nsd/sla/0/assurance_parameters/0/penalty/validity",
-                          "type": "string"
-                        },
-                        "value": {
-                          "id": "/nsd/sla/0/assurance_parameters/0/penalty/value",
-                          "type": "integer"
-                        }
-                      }
-                    },
-                    "unit": {
-                      "id": "/nsd/sla/0/assurance_parameters/0/unit",
-                      "type": "string"
-                    },
-                    "value": {
-                      "id": "/nsd/sla/0/assurance_parameters/0/value",
-                      "type": "string"
-                    },
-                    "violations": {
-                      "id": "/nsd/sla/0/assurance_parameters/0/violations",
-                      "type": "array",
-                      "items": {
-                        "id": "/nsd/sla/0/assurance_parameters/0/violations/0",
-                        "type": "object",
-                        "properties": {
-                          "breaches_count": {
-                            "id": "/nsd/sla/0/assurance_parameters/0/violations/0/breaches_count",
-                            "type": "integer"
-                          },
-                          "interval": {
-                            "id": "/nsd/sla/0/assurance_parameters/0/violations/0/interval",
-                            "type": "integer"
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              },
-              "billing": {
-                "id": "/nsd/sla/0/billing",
-                "type": "object",
-                "properties": {
-                  "model": {
-                    "id": "/nsd/sla/0/billing/model",
-                    "type": "string"
-                  },
-                  "price": {
-                    "id": "/nsd/sla/0/billing/price",
-                    "type": "object",
-                    "properties": {
-                      "price_per_period": {
-                        "id": "/nsd/sla/0/billing/price/price_per_period",
-                        "type": "integer"
-                      },
-                      "setup": {
-                        "id": "/nsd/sla/0/billing/price/setup",
-                        "type": "integer"
-                      },
-                      "unit": {
-                        "id": "/nsd/sla/0/billing/price/unit",
-                        "type": "string"
-                      }
-                    }
-                  }
-                }
-              },
               "constituent_vnf": {
-                "id": "/nsd/sla/0/constituent_vnf",
+                "id": "/nsd/service_deployment_flavours/0/constituent_vnf",
                 "type": "array",
                 "items": {
-                  "id": "/nsd/sla/0/constituent_vnf/0",
+                  "id": "/nsd/service_deployment_flavours/0/constituent_vnf/0",
                   "type": "object",
                   "properties": {
                     "number_of_instances": {
-                      "id": "/nsd/sla/0/constituent_vnf/0/number_of_instances",
+                      "id": "/nsd/service_deployment_flavours/0/constituent_vnf/0/number_of_instances",
                       "type": "integer"
                     },
                     "redundancy_model": {
-                      "id": "/nsd/sla/0/constituent_vnf/0/redundancy_model",
+                      "id": "/nsd/service_deployment_flavours/0/constituent_vnf/0/redundancy_model",
                       "type": "string"
                     },
                     "vnf_flavour_id_reference": {
-                      "id": "/nsd/sla/0/constituent_vnf/0/vnf_flavour_id_reference",
+                      "id": "/nsd/service_deployment_flavours/0/constituent_vnf/0/vnf_flavour_id_reference",
                       "type": "string"
                     },
                     "vnf_reference": {
-                      "id": "/nsd/sla/0/constituent_vnf/0/vnf_reference",
+                      "id": "/nsd/service_deployment_flavours/0/constituent_vnf/0/vnf_reference",
                       "type": "string"
                     }
                   }
-                }
+                },
+				"minItems": 1
               }
-            },
-            "required": [
-              "sla_key"
-            ]
+            }
           },
           "minItems": 1
         },
@@ -443,7 +344,28 @@
         },
         "connection_points": {
           "id": "/nsd/connection_points",
-          "type": "array"
+          "type": "array",		  
+          "items": {
+            "id": "/nsd/service_deployment_flavours/0",
+            "type": "object",
+            "properties": {
+              "id": {
+                "id": "/nsd/service_deployment_flavours/0/id",
+                "type": "string"
+              },
+              "type": {
+                "id": "/nsd/service_deployment_flavours/0/flavor_key",
+                "type": "string"
+              }
+			}
+		  }
+		},
+		"pnfds": {
+          "id": "/nsd/pnfds",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       },
       "required": [
@@ -455,7 +377,6 @@
         "lifecycle_events",
         "monitoring_parameters",
         "vld",
-        "sla",
         "auto_scale_policy"
       ]
     }
