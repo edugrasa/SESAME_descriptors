@@ -1,6 +1,6 @@
 {
     "_id": "IDS_ID",
-    "name": "IDS-NCSRD",
+    "name": "IDS-ORION",
     "version": 1,
     "vnf-manager": null,
     "vnfd": {
@@ -41,7 +41,7 @@
                     },
                     "cpu_support_accelerator": "AES-NI"
                 },
-                "alias": "IDS-NCSRD",
+                "alias": "IDS-ORION",
                 "id": "vdu0",
                 "networking_resources": "",
                 "monitoring_parameters_specific": [],
@@ -88,7 +88,7 @@
                 "vm_image_format": "openstack_id"
             }
         ],
-        "name": "IDS-NCSRD",
+        "name": "IDS-ORION",
         "provider_id": 1,
         "trade": false,
         "descriptor_version": "1",
@@ -161,8 +161,8 @@
             "model": "PAYG",
             "period": "P1D"
         },
-        "provider": "NCSRD",
-        "release": "NCSRD",
+        "provider": "ORION",
+        "release": "ORION",
         "vlinks": [
             {
                 "leaf_requirement": "Unlimited",
@@ -204,7 +204,7 @@
         "type": "vPXAAS",
 
 
-        "description": "NCSRD IDS",
+        "description": "ORION IDS",
         "id": 1223
     }
 }

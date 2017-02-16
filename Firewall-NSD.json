@@ -2,7 +2,7 @@
     "nsd":
 		{
 		    "id": "FW-ID",
-		    "name": "FW-NCSRD",
+		    "name": "FW-ORION",
 		    "vendor": "1",
 		    "version": "1",
 		    "vnfds": [
@@ -131,8 +131,8 @@
 		    },
 		    "connection_points": [],
 		    "vnf_dependency": [],
-		    "provider": "NCSRD",
-		    "description": "FW-NCSRD",
+		    "provider": "ORION",
+		    "description": "FW-ORION",
 		    "provider_id": "1",
 		    "descriptor_version": "1"
 		}

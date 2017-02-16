@@ -1,19 +1,19 @@
 {
-    "_id": "FW_id",
-    "name": "FW-NCSRD",
+    "_id": "FW_ID",
+    "name": "FW-ORION",
     "version": 1,
     "vnf-manager": null,
     "vnfd": {
         "id": 14,
-        "description": "NCSRD Firewall - DEMO",
+        "description": "Firewall",
         "type": "vPXAAS",
-        "name": "FW-NCSRD",
+        "name": "FW-ORION",
         "provider_id": 1,
         "trade": false,
         "descriptor_version": "1",
         "version": "1",
-        "provider": "NCSRD",
-        "release": "NCSRD",
+        "provider": "ORION",
+        "release": "ORION",
  	"vdu": [
             {
                 "resource_requirements": {
@@ -51,7 +51,7 @@
                     },
                     "cpu_support_accelerator": "AES-NI"
                 },
-                "alias": "FW-NCSRD",
+                "alias": "FW-ORION",
                 "id": "vdu0",
                 "networking_resources": "",
                 "monitoring_parameters_specific": [],

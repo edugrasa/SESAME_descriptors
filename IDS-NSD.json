@@ -2,7 +2,7 @@
     "nsd":
 	{
 	    "id": "IDS-ID",
-	    "name": "IDS-NCSRD",
+	    "name": "IDS-ORION",
 	    "vendor": "1",
 	    "version": "1",
 	    "vnfds": [
@@ -131,8 +131,8 @@
 	    },
 	    "connection_points": [],
 	    "vnf_dependency": [],
-	    "provider": "NCSRD",
-	    "description": "IDS-NCSRD",
+	    "provider": "ORION",
+	    "description": "IDS-ORION",
 	    "provider_id": "1",
 	    "descriptor_version": "1"
 	}
