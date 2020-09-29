@@ -357,10 +357,10 @@
                 "id": "/nsd/service_deployment_flavours/0/flavor_key",
                 "type": "string"
               }
-			}
-		  }
-		},
-		"pnfds": {
+	    }
+          }
+	},
+	"pnfds": {
           "id": "/nsd/pnfds",
           "type": "array",
           "items": {
